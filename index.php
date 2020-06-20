@@ -101,7 +101,7 @@
 
 <script>
     function MyFunction() {
-        location.href = "print.php";
+        window.open('print.php', '_blank');
     }
 </script>
 </body>
