@@ -1,0 +1,79 @@
+body {
+    background-color: #c7e4d3;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: #00AD81;
+    z-index: -9999;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.container {
+    width: 500px;
+    margin: 130px auto;
+    background-color: rgb(217, 235, 225);
+}
+
+table {
+    padding: 30px;
+    margin: auto;
+}
+
+tr {
+    padding-top: 20px;
+}
+
+tr input {
+    width: 325px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+td select {
+    height: 20px;
+}
+
+td button.submit {
+    float: right;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #00AD81;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+td label {
+    font-size: 20px;
+}
+
+.botbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;  
+    height: 70px;  
+    background-color: #333;
+    z-index: -9999;
+}
+
+.botbar .copy {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: whitesmoke;
+}

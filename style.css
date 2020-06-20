@@ -1,0 +1,156 @@
+
+
+/* style */
+body {
+    background-color: #c7e4d3;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: rgb(0, 133, 99);
+    z-index: -9999;
+}
+
+.topbar h1 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.container {
+    width: 750px;
+    margin: 80px auto;
+    background-color: rgb(217, 235, 225);
+}
+
+.container button {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: #00AD81;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgb(0, 136, 102);
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-cari {
+    margin-left: 110px;
+}
+
+.form-cari button {
+    background-color: #00AD81;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-cari input {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.container .form-cari input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.container .form-cari button[type="submit"] {
+    width: 50px;
+    height: 30px;
+}
+
+table {
+    width: 700px;
+    margin:30px auto;
+}
+
+tr td {
+    text-align: center  ;
+}
+
+tr td a {
+    text-decoration: none;
+    color: black;
+}
+
+tr td a:hover {
+    text-decoration: none;
+    color: rgb(0, 102, 77);
+}
+
+tr td a button {
+    background-color: #00AD81;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aksi button {
+    padding: 5px 10px;
+}
+
+.nav {
+    display: inline-block;
+    margin: 10px 250px;
+}
+
+.nav a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav a.page {
+    background-color: none;
+}
+
+.nav a.page-fb {
+    background-color: #00AD81;
+}
+
+.nav a:hover {
+    background-color: #00AD81;
+}
+
+.botbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;  
+    height: 80px;  
+    background-color: #333;
+    z-index: -9999;
+}
+
+.botbar .copy {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: whitesmoke;
+}
